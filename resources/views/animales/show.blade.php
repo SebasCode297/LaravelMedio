@@ -9,6 +9,6 @@ alt="imagen animal" class="img-fluid">
 <p><strong> Nombre: </strong></p>
 <p><strong> especie: </strong></p>
 
-
+{{-- dfmdndfdsk --}}
 
 @endsection
