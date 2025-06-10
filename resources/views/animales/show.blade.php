@@ -1,14 +1,21 @@
 @extends('layouts.app')
 
 @section('content')
+<div class="container mt-4">
+    <div class="card p-4">
+        <h1 class="text-center mb-4">Detalle del Animal</h1>
 
-<h1>detalle animlal</h1>
+        <div class="text-center">
+            <img src="https://png.pngtree.com/thumb_back/fh260/background/20220211/pngtree-domestic-pigeon-indulging-in-tourists-lunch-crumbs-in-a-cityscape-photo-image_34670938.jpg"
+                 alt="Imagen del Animal"
+                 class="img-fluid mb-4"
+                 style="max-width: 400px;">
+        </div>
 
-<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjOqkntabGHB5fCwftviYPhtdKfu3snqBRxA&s" 
-alt="imagen animal" class="img-fluid">
-<p><strong> Nombre: </strong></p>
-<p><strong> especie: </strong></p>
-
-{{-- dfmdndfdsk --}}
-
+        <div class="text-center">
+<p><strong>Nombre:</strong> {{ $animal->nombre }}</p>
+<p><strong>Especie:</strong> {{ $animal->especie }}</p>
+        </div>
+    </div>
+</div>
 @endsection

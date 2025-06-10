@@ -14,12 +14,13 @@ Route::get('/', function () {
 // Route::get('/create', function () {
 //     return view('animales/create');
 // });
-Route::resource('animales', AnimalController::class);
 
-Route::get('/show', function () {
-    return view('animales.show');
-});
+Route::resource('animales', AnimalController::class);
 
 Route::get('/edit', function () {
     return view('animales.edit');
+});
+
+Route::get('/show', function () {
+    return view('animales.show');
 });
