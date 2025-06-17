@@ -34,7 +34,7 @@
 
             <div class="text-center">
                 <button type="submit" class="btn btn-success">
-                    Guardar cambios
+                    Guardarc cambios
                 </button>
                 <a href="{{ route('animales.show', $animal->id) }}"
                    class="btn btn-secondary">
